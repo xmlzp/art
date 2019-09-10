@@ -1,0 +1,30 @@
+<!--pages/login/login.wxml-->
+<import src="../../src/wetoast.wxml"/>
+ <view class="login-panel">
+ <!--账号-->
+ <view class="account">
+ <image class="icon"src="/images/phone.png"/>
+ <input class="fill" type="number" bindinput='phoneBlur'  placeholder="请输入手机号" maxlength="11"/>
+ </view>
+
+  <!--密码-->
+ <view class="password">
+ <image class="icon"src="/images/password.png"/>
+ <input class="fill"  type="password"  bindinput='passwordBlur' placeholder="请输入密码"/>
+ </view>
+
+   <!--登录按钮-->
+    <view class="btn-panel">
+        <button class="btn" bindtap="login"  hover-class="btn-hover">登录</button>
+    </view>
+    
+    <!--没有账号?立即登录-->
+    <view class="no-panel">
+        <text class="text-1">没有账号？</text>
+        <text class="text-2" bindtap="register" >立即注册</text>
+    </view>
+    
+    <!--提示-->
+  <template is="wetoast" data="{{...__wetoast__}}" />
+    
+ </view>

@@ -1,0 +1,57 @@
+/* pages/login/login.wxss */
+.login-panel{
+  width: 100%;
+}
+.account{
+  display: flex;
+  border: 1px solid #C0C0C0;
+  width:90%;
+  height:70rpx;
+  margin-left: 35rpx;
+  border-radius:5rpx;
+  margin-top:120rpx;  
+}
+.icon{
+  width:20px;
+  height: 20px;
+  margin:10rpx 0 0 30rpx;  
+}
+.password{
+  display: flex;
+  border: 1px solid #C0C0C0;
+  width:90%;
+  height:70rpx;
+  margin-left: 35rpx;
+  border-radius:5rpx;
+  margin-top:20rpx;  
+}
+.fill{
+  padding:10rpx 0 0 20rpx;
+  font-size:14px; 
+}
+.btn-panel{
+  margin-top:30rpx;
+  height:120rpx;
+}
+.btn{
+   color: #fff;
+   background-color:#1fd0a0; 
+   width:90%;   
+   line-height:35px;
+
+}
+.btn-hover{
+  background-color: #1bc699
+}
+
+.no-panel{
+  margin-top:30rpx;
+  text-align: center; 
+}
+.text-1{
+  font-size:14px; 
+}
+.text-2{
+  font-size:14px;
+  color:#1fd0a0; 
+}
